@@ -1,1 +1,65 @@
-/* Add CSS styling here */
+img {
+  width: 200px;
+}
+
+#footbutton {
+  width: 100px;
+  height: 50px;
+  font-size: large;
+
+}
+footer{
+  text-align: center;
+  background-color: lightgray;
+  padding: 3% 0;
+}
+
+.boxes1{
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 25px;
+  flex-direction: row;
+}
+.boxes2{
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+header{
+  background-color: lightgray;
+  margin-bottom: 20px;
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+  border: white;
+}
+button{
+  background-color: white;
+  color: black;
+  border: black solid 1px;
+  padding: 5px 10px;
+}
+
+.text{
+  text-align: center;
+}
+
+.toppart{
+padding-left: 50px;
+  text-align: center;
+  width: 30%;
+}
+
+.topsection{
+  display: flex;
+  justify-content: center;
+ padding: 25px;
+}
+
+.flower{
+  width: 500px;
+}
